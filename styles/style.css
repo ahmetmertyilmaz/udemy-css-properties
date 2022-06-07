@@ -1,0 +1,52 @@
+#rgba1 {
+    width: 200px;
+    height: 200px;
+    background-color: rgba(209, 29, 29, 0.6);
+}
+
+#rgba {
+    width: 400px;
+    height: 400px;
+    background-color: rgba(68, 17, 187, 1);
+}
+
+#relative {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(187, 17, 139, 0.5);
+    /*position: static;*/
+    position: relative;
+    /*it makes it move to where related to its origininal place.*/
+    top: 10px;
+    left: 30px;
+}
+
+#absolute {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(31, 187, 17, 0.5);
+    position: absolute;
+    /*it depends on its ancestor' property that has a certain position value(like relative)*/
+    top: 10px;
+    left: 10px;
+}
+
+#fixed {
+    width: 50px;
+    height: 50px;
+    background-color: rgba(187, 142, 17, 1);
+    position: fixed;
+    /*it depends on nothing*/
+    top: 10px;
+    left: 500px;
+}
+
+#sticky {
+    width: 50px;
+    height: 50px;
+    background-color: rgb(187, 17, 17);
+    position: sticky;
+    /*it depends on nothing*/
+    top: 0;
+    left: 750px;
+}
