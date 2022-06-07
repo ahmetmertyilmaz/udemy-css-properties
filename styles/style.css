@@ -26,7 +26,7 @@
     height: 50px;
     background-color: rgba(31, 187, 17, 0.5);
     position: absolute;
-    /*it depends on its ancestor' property that has a certain position value(like relative)*/
+    /*it depends on its ancestor's property that has a certain position value(like relative)*/
     top: 10px;
     left: 10px;
 }
